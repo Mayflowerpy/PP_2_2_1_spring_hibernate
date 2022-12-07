@@ -1,6 +1,8 @@
 package hiber.model;
 
-import jakarta.persistence.*;
+//import jakarta.persistence.*;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
@@ -12,7 +14,6 @@ public class User {
 
    @Column(name = "name")
    private String firstName;
-
    @Column(name = "last_name")
    private String lastName;
 

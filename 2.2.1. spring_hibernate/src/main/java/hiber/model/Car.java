@@ -1,8 +1,8 @@
 package hiber.model;
 
-import jakarta.persistence.*;
+//import jakarta.persistence.*;
 
-//import javax.persistence.Column;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "cars")
